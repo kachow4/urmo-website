@@ -42,10 +42,18 @@ const content = [
   {
     id: 0,
     sectionTitle: "mission statement",
-    sectionContent: `Unique Representation of Movement (URMO) is a family dedicated to growth and individual expression through movement. Our goal is to uphold the history of dance culture and our team’s passion for artistry in an inclusive space to foster the purest representation of ourselves.`
+    sectionContent: `Unique Representation of Movement (URMO) is a family dedicated to growth and individual expression through movement. Our goal is to uphold 
+    the history of dance culture and our team’s passion for artistry in an inclusive space to foster the purest representation of ourselves.`
   },
   {
     id: 1,
+    sectionTitle: "history",
+    sectionContent: `URMO (formerly Urban Motus) is an exhibition dance team based at the University of California, Irvine, founded in 2010 by Benjamin Lee, Jessica Lee, and Jeffrey Jin. 
+    For the last 10 generations, URMO has been part of the Irvine Dance Community, creating and sharing our passion for dance with others. Our team strives to create a 
+    space for dancers of all experience levels to hone their craft and find new opportunities to train, grow, explore, and most of all, have fun!`
+  },
+  {
+    id: 2,
     sectionTitle: "frequently asked questions",
     sectionContent: ""
   },
