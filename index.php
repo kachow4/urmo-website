@@ -1,3 +1,3 @@
 <?php
-include_once("page.tsx");
+include_once("app/page.tsx");
 ?>
