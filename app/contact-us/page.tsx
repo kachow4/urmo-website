@@ -25,16 +25,16 @@ export default function ContactUs() {
           urmouci@gmail.com
         </a>
         <div className="flex gap-5">
-            <Link href="https://www.instagram.com/urmo.uci/">
+            <Link target="_blank" href="https://www.instagram.com/urmo.uci/">
                 <FontAwesomeIcon className="transition ease-out duration-500 hover:scale-[1.25]" icon={faInstagram} size="2xl"/>
             </Link>
-            <Link href="https://www.youtube.com/c/URMOUCI">
+            <Link target="_blank" href="https://www.youtube.com/c/URMOUCI">
                 <FontAwesomeIcon className="transition ease-out duration-500 hover:scale-[1.25]" icon={faYoutube} size="2xl"/>
             </Link>
-            <Link href="https://www.tiktok.com/@urmouci">
+            <Link target="_blank" href="https://www.tiktok.com/@urmouci">
                 <FontAwesomeIcon className="transition ease-out duration-500 hover:scale-[1.25]" icon={faTiktok} size="2xl"/>
             </Link>
-            <Link href="https://www.facebook.com/urmouci/">
+            <Link target="_blank" href="https://www.facebook.com/urmouci/">
                 <FontAwesomeIcon className="transition ease-out duration-500 hover:scale-[1.25]" icon={faFacebook} size="2xl"/>
             </Link>
         </div>

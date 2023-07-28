@@ -21,18 +21,18 @@ export default function Footer() {
             <div className="flex flex-col gap-5 text-end">
                 FOLLOW US
                 <div className="flex gap-5">
-                    <Link href="https://www.instagram.com/urmo.uci/">
-                        <FontAwesomeIcon className="transition ease-out duration-500 hover:scale-[1.25]" icon={faInstagram} size="2xl"/>
-                    </Link>
-                    <Link href="https://www.youtube.com/c/URMOUCI">
-                        <FontAwesomeIcon className="transition ease-out duration-500 hover:scale-[1.25]" icon={faYoutube} size="2xl"/>
-                    </Link>
-                    <Link href="https://www.tiktok.com/@urmouci">
-                        <FontAwesomeIcon className="transition ease-out duration-500 hover:scale-[1.25]" icon={faTiktok} size="2xl"/>
-                    </Link>
-                    <Link href="https://www.facebook.com/urmouci/">
-                        <FontAwesomeIcon className="transition ease-out duration-500 hover:scale-[1.25]" icon={faFacebook} size="2xl"/>
-                    </Link>
+                <Link target="_blank" href="https://www.instagram.com/urmo.uci/">
+                  <FontAwesomeIcon className="transition ease-out duration-500 hover:scale-[1.25]" icon={faInstagram} size="2xl"/>
+                </Link>
+                <Link target="_blank" href="https://www.youtube.com/c/URMOUCI">
+                    <FontAwesomeIcon className="transition ease-out duration-500 hover:scale-[1.25]" icon={faYoutube} size="2xl"/>
+                </Link>
+                <Link target="_blank" href="https://www.tiktok.com/@urmouci">
+                    <FontAwesomeIcon className="transition ease-out duration-500 hover:scale-[1.25]" icon={faTiktok} size="2xl"/>
+                </Link>
+                <Link target="_blank" href="https://www.facebook.com/urmouci/">
+                    <FontAwesomeIcon className="transition ease-out duration-500 hover:scale-[1.25]" icon={faFacebook} size="2xl"/>
+                </Link>
                 </div>
             </div>
         </div>

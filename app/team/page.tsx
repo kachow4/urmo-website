@@ -30,15 +30,15 @@ export default function Team() {
         <GenerationRoster
             number='8th'
             roster={eightGenNewbies}
-            imgPath='/.images/photoshoot/8thGenPhotoshoot.jpg'
+            imgPath='/images/photoshoot/8thGenPhotoshoot.jpg'
         />
         <GenerationRoster
-            number='9th'
+            number='7th'
             roster={seventhGenNewbies}
             imgPath='/images/photoshoot/7thGenPhotoshoot.jpg'
         />
         <GenerationRoster
-            number='8th'
+            number='6th'
             roster={sixthGenNewbies}
             imgPath='/images/photoshoot/6thGenPhotoshoot.jpg'
         />
@@ -517,7 +517,7 @@ const GenerationRoster: FC<{
                     src={imgPath}
                     width={800}
                     height={200}
-                    alt={`${number}th Generation Photoshoot`}
+                    alt={`${number} Generation Photoshoot`}
                     />
             </div>
         </div>
