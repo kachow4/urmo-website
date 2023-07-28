@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <div>
         <hr/>
-        <div className="flex justify-around p-5">
+        <div className="flex justify-between pl-24 pr-24 pt-5 pb-5">
 
             <div className="flex flex-col gap-5 text-start">
                 CONNECT WITH US
