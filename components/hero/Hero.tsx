@@ -6,11 +6,10 @@ export default function Hero() {
       <div className="z-[-1]">
         <Image
           priority
-          src={"/../public/images/TET2020Stage.jpg"}
-          layout="fill"
-          objectFit="cover"
-          objectPosition="center"
-          alt="hero image example"
+          src={"/images/TET2020Stage.jpg"}
+          fill={true}
+          style={{objectFit: "cover", objectPosition: "center"}}
+          alt="Hero Image"
         />
       </div>
     </div>

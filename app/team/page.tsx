@@ -20,52 +20,52 @@ export default function Team() {
         <GenerationRoster
             number='10th'
             roster={tenthGenNewbies}
-            imgPath='/../public/images/photoshoot/10thGenPhotoshoot.jpg'
+            imgPath='/images/photoshoot/10thGenPhotoshoot.jpg'
         />
         <GenerationRoster
             number='9th'
             roster={ninthGenNewbies}
-            imgPath='/../public/images/photoshoot/9thGenPhotoshoot.jpg'
+            imgPath='/images/photoshoot/9thGenPhotoshoot.jpg'
         />
         <GenerationRoster
             number='8th'
             roster={eightGenNewbies}
-            imgPath='/../public/images/photoshoot/8thGenPhotoshoot.jpg'
+            imgPath='/.images/photoshoot/8thGenPhotoshoot.jpg'
         />
         <GenerationRoster
             number='9th'
             roster={seventhGenNewbies}
-            imgPath='/../public/images/photoshoot/7thGenPhotoshoot.jpg'
+            imgPath='/images/photoshoot/7thGenPhotoshoot.jpg'
         />
         <GenerationRoster
             number='8th'
             roster={sixthGenNewbies}
-            imgPath='/../public/images/photoshoot/6thGenPhotoshoot.jpg'
+            imgPath='/images/photoshoot/6thGenPhotoshoot.jpg'
         />
         <GenerationRoster
             number='5th'
             roster={fifthGenNewbies}
-            imgPath='/../public/images/photoshoot/5thGenPhotoshoot.jpg'
+            imgPath='/images/photoshoot/5thGenPhotoshoot.jpg'
         />
         <GenerationRoster
             number='4th'
             roster={fourthGenNewbies}
-            imgPath='/../public/images/photoshoot/4thGenPhotoshoot.jpg'
+            imgPath='/images/photoshoot/4thGenPhotoshoot.jpg'
         />
         <GenerationRoster
             number='3rd'
             roster={thirdGenNewbies}
-            imgPath='/../public/images/photoshoot/3rdGenPhotoshoot.jpg'
+            imgPath='/images/photoshoot/3rdGenPhotoshoot.jpg'
         />
         <GenerationRoster
             number='2nd'
             roster={fourthGenNewbies}
-            imgPath='/../public/images/photoshoot/2ndGenPhotoshoot.jpg'
+            imgPath='/images/photoshoot/2ndGenPhotoshoot.jpg'
         />
         <GenerationRoster
             number='1st'
             roster={thirdGenNewbies}
-            imgPath='/../public/images/photoshoot/1stGenPhotoshoot.jpg'
+            imgPath='/images/photoshoot/1stGenPhotoshoot.jpg'
         />
     </div>
   )
@@ -76,259 +76,259 @@ const currentGenRoster = [
     id: 0,
     name: `Aaron Nonaka`,
     position: `Captain`,
-    imgPath: `/../public/images/10thGenProfiles/AaronNonaka.jpg`,
+    imgPath: `/images/10thGenProfiles/AaronNonaka.jpg`,
   },
   {
     id: 1,
     name: `Alex Do`,
     position: `Newbie`,
-    imgPath: `/../public/images/10thGenProfiles/AlexDo.jpg`,
+    imgPath: `/images/10thGenProfiles/AlexDo.jpg`,
   },
   {
     id: 2,
     name: `Alyssa Asprer`,
     position: `Newbie`,
-    imgPath: `/../public/images/10thGenProfiles/AlyssaAsprer.jpg`,
+    imgPath: `/images/10thGenProfiles/AlyssaAsprer.jpg`,
   },
   {
     id: 3,
     name: `Ashley Tsang`,
     position: `Newbie`,
-    imgPath: `/../public/images/10thGenProfiles/AshleyTsang.jpg`,
+    imgPath: `/images/10thGenProfiles/AshleyTsang.jpg`,
   },
   {
     id: 4,
     name: `Boram Gaudet`,
     position: `Returner`,
-    imgPath: `/../public/images/10thGenProfiles/BoramGaudet.jpg`,
+    imgPath: `/images/10thGenProfiles/BoramGaudet.jpg`,
   },
   {
     id: 5,
     name: `Brandon Galero`,
     position: `Newbie`,
-    imgPath: `/../public/images/10thGenProfiles/BrandonGalero.jpg`,
+    imgPath: `/images/10thGenProfiles/BrandonGalero.jpg`,
   },
   {
     id: 6,
     name: `Brandon Liu`,
     position: `Returner`,
-    imgPath: `/../public/images/10thGenProfiles/BrandonLiu.jpg`,
+    imgPath: `/images/10thGenProfiles/BrandonLiu.jpg`,
   },
   {
     id: 7,
     name: `Brian de Jesus`,
     position: `Returner`,
-    imgPath: `/../public/images/10thGenProfiles/BrianDeJesus.jpg`,
+    imgPath: `/images/10thGenProfiles/BrianDeJesus.jpg`,
   },
   {
     id: 8,
     name: `Catherine Vo`,
     position: `Newbie`,
-    imgPath: `/../public/images/10thGenProfiles/CatherineVo.jpg`,
+    imgPath: `/images/10thGenProfiles/CatherineVo.jpg`,
   },
   {
     id: 9,
     name: `Chanakan Thammasan`,
     position: `Coordinator`,
-    imgPath: `/../public/images/10thGenProfiles/ChanakanThammasan.jpg`,
+    imgPath: `/images/10thGenProfiles/ChanakanThammasan.jpg`,
   },
   {
     id: 10,
     name: `Christiana Ma`,
     position: `Newbie`,
-    imgPath: `/../public/images/10thGenProfiles/ChristianaMa.jpg`,
+    imgPath: `/images/10thGenProfiles/ChristianaMa.jpg`,
   },
   {
     id: 11,
     name: `Connie Shi`,
     position: `Returner`,
-    imgPath: `/../public/images/10thGenProfiles/ConnieShi.jpg`,
+    imgPath: `/images/10thGenProfiles/ConnieShi.jpg`,
   },
   {
     id: 12,
     name: `Connor Sytha`,
     position: `Newbie`,
-    imgPath: `/../public/images/10thGenProfiles/ConnorSytha.jpg`,
+    imgPath: `/images/10thGenProfiles/ConnorSytha.jpg`,
   },
   {
     id: 13,
     name: `Crystal Wong`,
     position: `Returner`,
-    imgPath: `/../public/images/10thGenProfiles/CrystalWong.jpg`,
+    imgPath: `/images/10thGenProfiles/CrystalWong.jpg`,
   },
   {
     id: 14,
     name: `Danny Pham`,
     position: `Newbie`,
-    imgPath: `/../public/images/10thGenProfiles/DannyPham.jpg`,
+    imgPath: `/images/10thGenProfiles/DannyPham.jpg`,
   },
   {
     id: 15,
     name: `Elizabeth Castreje`,
     position: `Newbie`,
-    imgPath: `/../public/images/10thGenProfiles/ElizabethCastreje.jpg`,
+    imgPath: `/images/10thGenProfiles/ElizabethCastreje.jpg`,
   },
   {
     id: 16,
     name: `Florence Liu`,
     position: `Captain`,
-    imgPath: `/../public/images/10thGenProfiles/FlorenceLiu.jpg`,
+    imgPath: `/images/10thGenProfiles/FlorenceLiu.jpg`,
   },
   {
     id: 17,
     name: `Iris Chuan`,
     position: `Returner`,
-    imgPath: `/../public/images/10thGenProfiles/IrisChuan.jpg`,
+    imgPath: `/images/10thGenProfiles/IrisChuan.jpg`,
   },
   {
     id: 18,
     name: `Jadon Kwan`,
     position: `Newbie`,
-    imgPath: `/../public/images/10thGenProfiles/JadonKwan.jpg`,
+    imgPath: `/images/10thGenProfiles/JadonKwan.jpg`,
   },
   {
     id: 19,
     name: `Jane Lai`,
     position: `Newbie`,
-    imgPath: `/../public/images/10thGenProfiles/JaneLai.jpg`,
+    imgPath: `/images/10thGenProfiles/JaneLai.jpg`,
   },
   {
     id: 20,
     name: `Jenny Marklevits`,
     position: `Returner`,
-    imgPath: `/../public/images/10thGenProfiles/JennyMarklevitz.jpg`,
+    imgPath: `/images/10thGenProfiles/JennyMarklevitz.jpg`,
   },
   {
     id: 21,
     name: `Justyn Gelacio`,
     position: `Returner`,
-    imgPath: `/../public/images/10thGenProfiles/JustynGelacio.jpg`,
+    imgPath: `/images/10thGenProfiles/JustynGelacio.jpg`,
   },
   {
     id: 22,
     name: `Kaoru Ando`,
     position: `Newbie`,
-    imgPath: `/../public/images/10thGenProfiles/KaoruAndo.jpg`,
+    imgPath: `/images/10thGenProfiles/KaoruAndo.jpg`,
   },
   {
     id: 23,
     name: `Katie Chow`,
     position: `Returner`,
-    imgPath: `/../public/images/10thGenProfiles/KatieChow.jpg`,
+    imgPath: `/images/10thGenProfiles/KatieChow.jpg`,
   },
   {
     id: 24,
     name: `Kaylyn Chang`,
     position: `Newbie`,
-    imgPath: `/../public/images/10thGenProfiles/KaylynChang.jpg`,
+    imgPath: `/images/10thGenProfiles/KaylynChang.jpg`,
   },
   {
     id: 25,
     name: `Lachlan Ma`,
     position: `Returner`,
-    imgPath: `/../public/images/10thGenProfiles/LachlanMa.jpg`,
+    imgPath: `/images/10thGenProfiles/LachlanMa.jpg`,
   },
   {
     id: 26,
     name: `Lian Call`,
     position: `Newbie`,
-    imgPath: `/../public/images/10thGenProfiles/LianCall.jpg`,
+    imgPath: `/images/10thGenProfiles/LianCall.jpg`,
   },
   {
     id: 27,
     name: `Matthew Caday`,
     position: `Newbie`,
-    imgPath: `/../public/images/10thGenProfiles/MatthewCaday.jpg`,
+    imgPath: `/images/10thGenProfiles/MatthewCaday.jpg`,
   },
   {
     id: 28,
     name: `Matthew Lin`,
     position: `Newbie`,
-    imgPath: `/../public/images/10thGenProfiles/MatthewLin.jpg`,
+    imgPath: `/images/10thGenProfiles/MatthewLin.jpg`,
   },
   {
     id: 29,
     name: `Megan Chen`,
     position: `Coordinator`,
-    imgPath: `/../public/images/10thGenProfiles/MeganChen.jpg`,
+    imgPath: `/images/10thGenProfiles/MeganChen.jpg`,
   },
   {
     id: 30,
     name: `Melanie Torres`,
     position: `Captain`,
-    imgPath: `/../public/images/10thGenProfiles/MelanieTorres.jpg`,
+    imgPath: `/images/10thGenProfiles/MelanieTorres.jpg`,
   },
   {
     id: 31,
     name: `Mesac Garriga`,
     position: `Returner`,
-    imgPath: `/../public/images/10thGenProfiles/MesacGarriga.jpg`,
+    imgPath: `/images/10thGenProfiles/MesacGarriga.jpg`,
   },
   {
     id: 32,
     name: `Nhi Nguyen`,
     position: `Newbie`,
-    imgPath: `/../public/images/10thGenProfiles/NhiNguyen.jpg`,
+    imgPath: `/images/10thGenProfiles/NhiNguyen.jpg`,
   },
   {
     id: 33,
     name: `Nicholas Alvarez`,
     position: `Returner`,
-    imgPath: `/../public/images/10thGenProfiles/NicholasAlvarez.jpg`,
+    imgPath: `/images/10thGenProfiles/NicholasAlvarez.jpg`,
   },
   {
     id: 34,
     name: `Reena Arnoco`,
     position: `Newbie`,
-    imgPath: `/../public/images/10thGenProfiles/ReenaArnoco.jpg`,
+    imgPath: `/images/10thGenProfiles/ReenaArnoco.jpg`,
   },
   {
     id: 35,
     name: `Richard Chen`,
     position: `Returner`,
-    imgPath: `/../public/images/10thGenProfiles/RichardChen.jpg`,
+    imgPath: `/images/10thGenProfiles/RichardChen.jpg`,
   },
   {
     id: 36,
     name: `Riley Garcia`,
     position: `Newbie`,
-    imgPath: `/../public/images/10thGenProfiles/RileyGarcia.jpg`,
+    imgPath: `/images/10thGenProfiles/RileyGarcia.jpg`,
   },
   {
     id: 37,
     name: `Satoshi Ueda`,
     position: `Newbie`,
-    imgPath: `/../public/images/10thGenProfiles/SatoshiUeda.jpg`,
+    imgPath: `/images/10thGenProfiles/SatoshiUeda.jpg`,
   },
   {
     id: 38,
     name: `Stella Shin`,
     position: `Returner`,
-    imgPath: `/../public/images/10thGenProfiles/StellaShin.jpg`,
+    imgPath: `/images/10thGenProfiles/StellaShin.jpg`,
   },
   {
     id: 39,
     name: `Tyler Matsunami`,
     position: `Returner`,
-    imgPath: `/../public/images/10thGenProfiles/TylerMatsunami.jpg`,
+    imgPath: `/images/10thGenProfiles/TylerMatsunami.jpg`,
   },
   {
     id: 40,
     name: `Vanessa Lu`,
     position: `Returner`,
-    imgPath: `/../public/images/10thGenProfiles/VanessaLu.jpg`,
+    imgPath: `/images/10thGenProfiles/VanessaLu.jpg`,
   },
   {
     id: 41,
     name: `Vu Dang Nguyen`,
     position: `Newbie`,
-    imgPath: `/../public/images/10thGenProfiles/VuDangNguyen.jpg`,
+    imgPath: `/images/10thGenProfiles/VuDangNguyen.jpg`,
   },
   {
     id: 42,
     name: `William Kim`,
     position: `Returner`,
-    imgPath: `/../public/images/10thGenProfiles/WilliamKim.jpg`,
+    imgPath: `/images/10thGenProfiles/WilliamKim.jpg`,
   },
 ]
 const tenthGenNewbies = [
@@ -472,8 +472,8 @@ const TeamMember: FC<{
                 <Image 
                     priority
                     src={imgPath}
-                    layout="fill"
-                    objectFit="cover"
+                    fill={true}
+                    style={{objectFit: "cover"}}
                     objectPosition="center"
                     alt={`${name} Profile Picture`}
                 />

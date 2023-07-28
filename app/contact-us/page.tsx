@@ -10,7 +10,7 @@ export default function ContactUs() {
       <div className="z-[-1]">
         <Image
           priority
-          src={"/../public/images/ALLIDC2019.png"}
+          src={"/images/ALLIDC2019.png"}
           layout="fill"
           objectFit="cover"
           objectPosition="center"
