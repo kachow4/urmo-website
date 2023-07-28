@@ -473,8 +473,7 @@ const TeamMember: FC<{
                     priority
                     src={imgPath}
                     fill={true}
-                    style={{objectFit: "cover"}}
-                    objectPosition="center"
+                    style={{objectFit: "cover", objectPosition: "center"}}
                     alt={`${name} Profile Picture`}
                 />
             </div>
@@ -499,7 +498,7 @@ const GenerationRoster: FC<{
     }> = ({ number, roster, imgPath }) => (
         <div className='flex flex-col w-full gap-5 text-center items-center'>
             <span className='text-4xl pt-10'>{
-                parseInt(number.charAt(0)) > 5 ? `${number} generation newbies`.toUpperCase() : `${number} generation`.toUpperCase()
+                parseInt(number.slice(0,-2)) > 5 ? `${number} generation newbies`.toUpperCase() : `${number} generation`.toUpperCase()
             }
             </span>
             <div className='grid grid-rows-5 grid-flow-col max-w-screen-xl w-full text-center px-60'>
