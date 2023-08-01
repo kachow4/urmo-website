@@ -4,8 +4,14 @@ import { FC } from 'react'
 export default function Team() {
   return (
     <div className='flex flex-col w-full gap-5'>
-        <span className='w-full text-center text-5xl font-thin p-20'>{`meet the team`.toUpperCase()}</span>
-        <div className='grid grid-cols-4 px-60'>
+        <span className='w-full text-center text-2xl 
+                        tablet+:text-3xl tablet+:pt-8
+                        laptop:text-5xl laptop:p-6 laptop:font-thin
+                        desktop+:p-14'>{`meet the team`.toUpperCase()}</span>
+        <div className='grid grid-cols-2 px-2 min-w-[400px]
+                        tablet+:grid-cols-3 tablet+:px-5
+                        laptop:grid-cols-4 laptop:px-10
+                        desktop+:px-48'>
             {Array(43)
                 .fill(0)
                 .map((x, i) => (
@@ -466,7 +472,10 @@ const TeamMember: FC<{
   position: string
   imgPath: string
 }> = ({ name, position, imgPath }) => (
-    <div className='overflow-hidden w-full h-[28vh]'>
+    <div className='overflow-hidden w-full h-[15vh]
+                    tablet:h-[18vh]
+                    laptop+:h-[22vh]
+                    desktop+:h-[28vh]'>
         <div className="relative inline-block w-full h-full transition ease-out duration-500 hover:scale-[1.15]">
             <div className="-z-1"> 
                 <Image 
@@ -477,7 +486,9 @@ const TeamMember: FC<{
                     alt={`${name} Profile Picture`}
                 />
             </div>
-            <div className="relative flex flex-col h-full justify-center text-center text-transparent transition ease-out duration-500 hover:backdrop-brightness-50 hover:text-white">
+            <div className="relative flex flex-col h-full justify-center text-xs text-center text-transparent transition ease-out duration-500 hover:backdrop-brightness-50 hover:text-white
+                            tablet:text-sm
+                            laptop+:text-base">
                 <span className="text-center">{name}</span>
                 <span className="text-center font-thin">{position.toUpperCase()}</span>
             </div>
@@ -496,12 +507,20 @@ const GenerationRoster: FC<{
     roster: any[]
     imgPath: string
     }> = ({ number, roster, imgPath }) => (
-        <div className='flex flex-col w-full gap-5 text-center items-center'>
-            <span className='text-4xl pt-10'>{
+        <div className='flex flex-col w-full gap-3 text-center items-center min-w-[320px]
+                        tablet+:gap-5'>
+            <span className='text-xl 
+                            tablet:text-2xl tablet:pt-5
+                            tablet+:text-3xl
+                            laptop:text-4xl'>{
                 parseInt(number.slice(0,-2)) > 5 ? `${number} generation newbies`.toUpperCase() : `${number} generation`.toUpperCase()
             }
             </span>
-            <div className='grid grid-rows-5 grid-flow-col max-w-screen-xl w-full text-center px-60'>
+            <div className='grid grid-cols-2 text-xs whitespace-nowrap max-w-screen-xl w-full text-center 
+                            tablet:px-5 tablet:grid-cols-none tablet:grid-rows-6 tablet:grid-flow-col
+                            tablet+:px-20 tablet+:text-sm
+                            laptop:grid-rows-5 laptop:text-base
+                            laptop+:px-64'>
                 {Array(roster.length)
                     .fill(0)
                     .map((x, i) => (
